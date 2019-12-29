@@ -17,6 +17,13 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: `https://gmail.us4.list-manage.com/subscribe/post?u=79714e07b9a3adf6f81fb1a8f&amp;id=d006cb2dc9`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,8 +42,7 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
-          {
+        gatsbyRemarkPlugins: [{
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
@@ -62,29 +68,29 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
+    options: {
+      // edit below
+      // trackingId: `ADD YOUR TRACKING ID HERE`,
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        // edit below
-        icon: `content/assets/gatsby-icon.png`,
-      },
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Gatsby Starter Blog`,
+      short_name: `GatsbyJS`,
+      start_url: `/`,
+      background_color: `#ffffff`,
+      theme_color: `#663399`,
+      display: `minimal-ui`,
+      // edit below
+      icon: `content/assets/gatsby-icon.png`,
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+  },
+  {
+    resolve: `gatsby-plugin-typography`,
+    options: {
+      pathToConfigModule: `src/utils/typography`,
     },
-  ],
+  },
+],
 }

@@ -1,11 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Button from "../components/button"
+//componets
+import Header from "../components/header"
+import Footer from "../components/footer"
+
+//bootstrap
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+
+//styles
+import '../styles/styles.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Blog extends React.Component {
   render() {
@@ -14,19 +22,16 @@ class Blog extends React.Component {
     const posts = data.allMdx.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
+    <div>
+      <Header/>
+      <Container>
+
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
+                <h3>
                   <Link
                     style={{ boxShadow: `none` }}
                     to={`blog${node.fields.slug}`}
@@ -44,10 +49,9 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
-      </Layout>
+        </Container>
+      <Footer/>
+      </div>
     )
   }
 }
@@ -77,4 +81,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+  `
