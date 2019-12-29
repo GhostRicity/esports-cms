@@ -48,7 +48,7 @@ class HandBook extends React.Component{
         <Button>Read</Button>
       </Link>
       <Link to="/">
-        <Button marginTop="35px">download</Button>
+        <Button >download</Button>
       </Link>
       <Card style={{ width: '18rem' }}>
   <Card.Body>
