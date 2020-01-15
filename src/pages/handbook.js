@@ -42,36 +42,106 @@ class HandBook extends React.Component{
           <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
         </Col>
       </Row>
-
-
-      <Link to="/">
-        <Button>Read</Button>
-      </Link>
-      <Link to="/">
-        <Button >download</Button>
-      </Link>
+      <Row>
       <Card style={{ width: '18rem' }}>
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Handbook Eng</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the cards content.
+      Read hear or downolade for later use
     </Card.Text>
   </Card.Body>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link href="reader">Read</Card.Link>
+    <Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
   </Card.Body>
 </Card>
 
+</Row>
+<Row>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+<Card style={{ width: '18rem' }}>
+<Card.Body>
+<Card.Title>Handbook Eng</Card.Title>
+<Card.Text>
+Read hear or downolade for later use
+</Card.Text>
+</Card.Body>
+<Card.Body>
+<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
+</Row>
 
 
       </Container>
       <Footer/>
-
-
-
-
         </div>
     )
   }

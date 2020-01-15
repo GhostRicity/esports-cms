@@ -7,13 +7,16 @@ $off-white: #f2f4f5;
 body,
 html {
   font-family: $font;
-  font-size: 16px;
+  font-size: 1.2rem;
   scroll-behavior: smooth;
+
 }
+
+
 
 //bootstrap nav
 .Navbar {
-  background-color: red;
+  background-color: blue;
 }
 
 .mr-auto{
@@ -37,20 +40,31 @@ html {
   min-height: 500px;
   height: 700px;
   font-family: $font;
-  background: rgb(255,0,0);
-background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(9,9,121,0) 50%, rgba(9,9,121,1) 100%);
+  background: $white;
+  background: url(https://www.adobomagazine.com/wp-content/uploads/2019/12/razer-insert1.jpg) no-repeat center center;
+ -webkit-background-size: 100% 100%;
+ -moz-background-size: 100% 100%;
+ -o-background-size: 100% 100%;
+ background-size: 100% 100%;
+
   h1 {
     font-size:  3rem;
     align-items: center;
     padding: 3rem;
+    color: white;
   }
   p{
     padding-bottom: 1.75rem;
+    color: white;
   }
   p {
     .button{
       align-items: center;
       text-align: center;
+      color: white;
+      a {
+        color: white;
+      }
     }
   }
 }
@@ -78,8 +92,16 @@ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(9,9,121,0) 50%, rgba
     }
   }
 }
+//cards
+.card {
+  margin: 10px;
+  align-items: center;
+}
+
 //footer
 .footer {
+
+ bottom: 10px;
  min-height: 200px;
  height: 200px;
  margin-bottom: 0rem !important;

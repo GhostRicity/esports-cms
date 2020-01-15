@@ -17,11 +17,7 @@ const Footer = () => (
       footer
     </p>
     <p>
-    <Button variant="outline-primary" style={{
-      margin: '10px',
-    }}>
-    <Link to="#sec1">Back to top</Link>
-    </Button>
+    information ans logos
     </p>
   </Jumbotron>
 

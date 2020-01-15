@@ -4,24 +4,12 @@ backend:
   use_graphql: true
 
 media_folder: content/assets
-public_folder: assets
+public_folder: content/assets
 
 collections:
   - name: blog
     label: Blog
     folder: content/blog
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: body, label: Body, widget: markdown }
-
-collections:
-  - name: research
-    label: research
-    folder: content/research
     create: true
     fields:
       - { name: path, label: Path }
