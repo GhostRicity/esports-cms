@@ -1,4 +1,4 @@
-import React from "react"
+//import React from "react"
 import { Link } from "gatsby"
 
 import { PDFReader } from "reactjs-pdf-reader"
@@ -15,7 +15,7 @@ const Bookr = () => (
       }}>
       <MobilePDFReader  url="http://localhost:8000/MonsterManual.pdf" isShowFooter="false"  isShowHeader="true"  showAllPage="true" />
      </div>
-     
+
 )
 
 export default Bookr
