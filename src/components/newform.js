@@ -1,9 +1,9 @@
 import React from "react"
 import PropTypes from 'prop-types';
-import Button from "../components/button"
 import TextField from '@material-ui/core/TextField';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import { withStyles } from '@material-ui/core/styles';
+import Button from 'react-bootstrap/Button'
 
 const Nform = theme => ({
   mailForm: {
@@ -12,6 +12,7 @@ const Nform = theme => ({
   emailInput :{
     backgroundColor: 'white',
     width: '300px',
+    paddingBottom: '20px',
   }
 });
 
@@ -52,7 +53,7 @@ class MailchimpForm extends React.Component {
       onChange={this.handleChange}
       />
       <br/>
-      <Button variant="contained" color="primary" label="submit" type="submit">
+      <Button variant="success"  label="submit" type="submit">
       Recive Newsletter
       </Button>
       </form>

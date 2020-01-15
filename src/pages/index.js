@@ -15,6 +15,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import Image from 'react-bootstrap/Image'
 
 
 class IndexPage extends React.Component {
@@ -33,8 +34,8 @@ class IndexPage extends React.Component {
          (Ref. No 2019-1-LV01-KA201-060426)
         </p>
         <p>
-        <Button variant="outline-primary">
-          <Link to="#sec1" variant="primary">Learn more</Link>
+        <Button variant="light">
+          <Link to="#sec1" variant="light">Learn more</Link>
         </Button>
         </p>
       </Jumbotron>
@@ -71,7 +72,7 @@ class IndexPage extends React.Component {
           <p>The project partners have already met in the first transnational project management meeting in Portugal at the end of November of 2019 and are working on planning the first LoL tournament which will take place in the beginning of March 2020, in Riga, Latvia. </p>
         </Col>
       </Row>
-    
+
       </Container>
       <Footer/>
 

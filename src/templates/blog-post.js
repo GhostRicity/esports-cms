@@ -10,16 +10,20 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} >
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1
+          style={{
+            marginBottom: "50px",
+          }}
+          >
+          {post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
