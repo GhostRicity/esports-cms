@@ -1,5 +1,5 @@
 ---
-path: blog
+path: content/blog
 date: 2020-01-15T09:43:09.883Z
 title: king
 description: photo test of king
