@@ -8,12 +8,11 @@ import Footer from "../components/footer"
 //bootstrap
 import Container from 'react-bootstrap/Container'
 
-
 //styles
 import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-class Blog extends React.Component {
+class Research extends React.Component {
   render() {
     const { data } = this.props
     const posts = data.allMdx.edges
@@ -31,7 +30,7 @@ class Blog extends React.Component {
                 <h3>
                   <Link
                     style={{ boxShadow: `none` }}
-                    to={`blog${node.fields.slug}`}
+                    to={`research${node.fields.slug}`}
                   >
                     {title}
                   </Link>
@@ -53,7 +52,7 @@ class Blog extends React.Component {
   }
 }
 
-export default Blog
+export default Research
 
 export const pageQuery = graphql`
   query {

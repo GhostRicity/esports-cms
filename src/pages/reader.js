@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+
 
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Bookr from "../components/reader"
 
 //import styles
@@ -37,7 +35,7 @@ class Reader extends React.Component{
           <Bookr/>
 
       </Container>
-
+      <Footer/>
         </div>
     )
   }
