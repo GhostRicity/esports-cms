@@ -15,7 +15,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import Image from 'react-bootstrap/Image'
 
 
 class IndexPage extends React.Component {
@@ -25,7 +24,7 @@ class IndexPage extends React.Component {
       <div>
       <Header/>
 
-      <Jumbotron id="home" className="jumbotron">
+      <Jumbotron id="home" className="jumbotron" style={{ marginTop: "3rem"}}>
         <h1>eSports - gaming for engagement at school</h1>
         <p>
           Gaming for Boosting School Engagement of Students with Learning Disabilities

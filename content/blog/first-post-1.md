@@ -1,5 +1,5 @@
 ---
-path: 'null'
+path: blog
 date: 2019-12-25T11:31:11.212Z
 title: First post
 description: 'some erros '

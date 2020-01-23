@@ -20,7 +20,7 @@ class Research extends React.Component {
     return (
     <div>
       <Header/>
-      <Container>
+      <Container style={{ paddingTop: "3rem"}}>
 
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {path: {eq: "research"}}}) {
       edges {
         node {
           excerpt

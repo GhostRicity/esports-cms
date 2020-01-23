@@ -18,14 +18,25 @@ collections:
       - { name: description, label: Description }
       - { label: "Featured Image", name: "thumbnail", widget: "image"}
       - { name: body, label: Body, widget: markdown }
-  - labe: Research
+  - label: Research
     name: research
     identifier_field: research
     folder: content/research
     create: true
     fields:
-      - { name: path, label: mxd }
+      - { name: path, label: path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+  - label: Tournaments
+    name: tournaments
+    identifier_field: tournaments
+    folder: content/tournaments
+    create: true
+    fields:
+     - { name: path, label: path }
+     - { name: date, label: Date, widget: date }
+     - { name: title, label: Title }
+     - { name: description, label: Description }
+     - { name: body, label: Body, widget: markdown }

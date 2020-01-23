@@ -1,9 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import Nform from "../components/newform"
-import SEO from "../components/seo"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -13,23 +10,20 @@ import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 //bootstrap
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
+
 
 class NewsForm extends React.Component{
   render () {
-    const siteTitle = "Newsletter"
-
+    
     return (
       <div>
 
       <Header/>
 
-      <Container  className="container1">
+      <Container  className="container1" style={{ marginBottom: "13rem", marginTop: "5rem"}}>
       <Row>
       </Row>
       <Row>
@@ -41,19 +35,16 @@ class NewsForm extends React.Component{
           <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
         </Col>
       </Row>
+
       <Nform>
       </Nform>
-      </Container>
 
+      </Container>
 
       <Footer/>
         </div>
     )
   }
 }
-
-
-
-
 
 export default NewsForm
