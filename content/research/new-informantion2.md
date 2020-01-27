@@ -1,5 +1,5 @@
 ---
-path: path/research
+path: research
 date: 2020-01-27T13:12:15.499Z
 title: New Informantion3
 description: Beat you kids for more efctive reading

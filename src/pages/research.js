@@ -8,6 +8,7 @@ import Footer from "../components/footer"
 //bootstrap
 import Container from 'react-bootstrap/Container'
 
+
 //styles
 import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -61,7 +62,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }, filter: {frontmatter: {path: {eq: "research"}}}) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC  }, filter: {frontmatter: {path: {eq: "research"}}}) {
       edges {
         node {
           excerpt
