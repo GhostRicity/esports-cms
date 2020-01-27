@@ -1,31 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
 
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Bookr from "../components/reader"
 
 //import styles
 import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 //bootstrap
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
 
 class HandBook extends React.Component{
   render(){
-    const siteTitle = "Handbook"
-
-    return (
+   return (
       <div>
 
       <Header/>
@@ -125,20 +117,19 @@ Read hear or downolade for later use
 </Card>
 
 <Card style={{ width: '18rem' }}>
-<Card.Body>
-<Card.Title>Handbook Eng</Card.Title>
-<Card.Text>
-Read hear or downolade for later use
-</Card.Text>
-</Card.Body>
-<Card.Body>
-<Card.Link href="reader">Read</Card.Link>
-<Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
-</Card.Body>
+  <Card.Body>
+    <Card.Title>Handbook Eng</Card.Title>
+      <Card.Text>
+        Read hear or downolade for later use
+        </Card.Text>
+  </Card.Body>
+  <Card.Body>
+    <Card.Link href="reader">Read</Card.Link>
+    <Card.Link href="http://localhost:8000/MonsterManual.pdf" download>Download</Card.Link>
+  </Card.Body>
 </Card>
 
-</Row>
-
+    </Row>
 
       </Container>
       <Footer/>

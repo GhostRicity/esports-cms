@@ -74,8 +74,8 @@ background-size: cover;
 }
 
 .container1 {
-  align-items: center;
-  text-align: center;
+  //align-items: center;
+  //text-align: center;
   margin: auto;
   font-family: $font;
   background: white;
@@ -108,11 +108,19 @@ background-size: cover;
  background: $white !important;
  bottom: 10px;
  min-height: 200px;
- height: 200px;
+ max-height: 500px;
 
  margin-bottom: 0rem !important;
  p{
    margin-bottom: 0px !important;
    color: $black;
+ }
+ .svg{
+   width: 100%;
+   height: 100%;
+ }
+ .logo{
+   background: url(https://files.slack.com/files-pri/TP1PJQH5E-FS5FATA3H/erasmus_logo.jpg) no-repeat center center ;
+   width: 522px;
  }
 }

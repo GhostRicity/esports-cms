@@ -16,7 +16,6 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { label: "Featured Image", name: "thumbnail", widget: "image"}
       - { name: body, label: Body, widget: markdown }
   - label: Research
     name: research

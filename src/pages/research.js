@@ -20,7 +20,7 @@ class Research extends React.Component {
     return (
     <div>
       <Header/>
-      <Container style={{ paddingTop: "3rem"}}>
+      <Container className="container1" style={{ paddingTop: "3rem"}}>
 
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
