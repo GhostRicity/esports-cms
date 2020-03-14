@@ -18,6 +18,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-sass`,
+    `gatsby-background-image`,
     {
       resolve: `gatsby-plugin-mailchimp`,
       options: {

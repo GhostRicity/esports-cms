@@ -1,5 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
+import BackgroundImage from 'gatsby-background-image'
+import styled from 'styled-components'
 
 //import componets
 import Header from "../components/header"
@@ -17,14 +21,30 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
 
-class IndexPage extends React.Component {
-  render() {
+const IndexPage = () => {
+const bgImage = useStaticQuery(graphql`
+    query BgImage {
+       desktop: file(relativePath: { eq: "esports-1.jpg" }) {
+        childImageSharp {
+          fluid(quality: 90, maxWidth: 1920) {
+          ...GatsbyImageSharpFluid_withWebp
+
+        }
+      }
+    }
+  }
+    `)
+  console.log(bgImage)
+
 
     return (
+
       <div>
       <Header/>
-
       <Jumbotron id="home" className="jumbotron" style={{ marginTop: "3rem"}}>
+      <div className="main-image">
+        <Img fluid={bgImage.desktop.childImageSharp.fluid} />
+      </div>
         <h1>eSports - gaming for engagement at school</h1>
         <p>
           Gaming for Boosting School Engagement of Students with Learning Disabilities
@@ -33,12 +53,9 @@ class IndexPage extends React.Component {
          (Ref. No 2019-1-LV01-KA201-060426)
         </p>
         <p>
-        <Button variant="light">
-          <Link to="#sec1" variant="light">Learn more</Link>
-        </Button>
         </p>
       </Jumbotron>
-      <Container id="sec1" className="container1">
+      <Container className="container1">
       <Row>
         <Col sm={4}>
           <h2>eSports</h2>
@@ -76,10 +93,8 @@ class IndexPage extends React.Component {
       <Footer/>
 
     </div>
-    )
-  }
+
+  )
 }
-
-
 
 export default IndexPage

@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import { PDFReader } from "reactjs-pdf-reader"
 import { MobilePDFReader } from 'reactjs-pdf-reader'
 
 const Bookr = () => (

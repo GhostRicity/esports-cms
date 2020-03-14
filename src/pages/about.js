@@ -1,4 +1,6 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 //import componets
 import Header from "../components/header"
@@ -15,13 +17,58 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
 
-class AboutPage extends React.Component {
-  render() {
+const AboutPage = () => {
+const logo  = useStaticQuery(graphql`
+  query {
+    logo1: file(relativePath: { eq: "ldb-logo.jpg"}) {
+  childImageSharp {
+    fluid(quality: 90, maxWidth: 300) {
+      ...GatsbyImageSharpFluid_withWebp
+     }
+    }
+  }
+  logo2: file(relativePath: { eq: "spts-logo.jpg"}) {
+childImageSharp {
+  fluid(quality: 100, maxWidth: 300) {
+    ...GatsbyImageSharpFluid_withWebp
+   }
+  }
+}
+  logo3: file(relativePath: { eq: "hodina-logo.png"}) {
+childImageSharp {
+  fluid(quality: 90, maxWidth: 300) {
+    ...GatsbyImageSharpFluid_withWebp
+    }
+   }
+  }
+  logo4: file(relativePath: { eq: "chekin-logo.png"}) {
+childImageSharp {
+  fluid(quality: 90, maxWidth: 300) {
+    ...GatsbyImageSharpFluid_withWebp
+   }
+  }
+}
+  logo5: file(relativePath: { eq: "acd-logo.png"}) {
+childImageSharp {
+  fluid(quality: 90, maxWidth: 300) {
+  ...GatsbyImageSharpFluid_withWebp
+    }
+   }
+  }
+  logo6: file(relativePath: { eq: "coriss-logo.jpg"}) {
+childImageSharp {
+  fluid(quality: 90, maxWidth: 300) {
+  ...GatsbyImageSharpFluid_withWebp
+    }
+   }
+  }
+}
+`)
+console.log(logo)
 
     return (
       <div>
       <Header/>
-
       <Container  className="container1" style={{ marginTop: "5rem"}}>
       <Row>
       </Row>
@@ -36,62 +83,82 @@ class AboutPage extends React.Component {
       </Row>
       <Row>
         <Col sm={4}>
-          <h2>org1</h2>
+          <Img fluid={logo.logo1.childImageSharp.fluid} />
         </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={4}>
-          <h2>org2</h2>
-        </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
+        <Col s={8}>
+          <h2>Latvijas Disleksijas biedrība</h2>
+          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+          various learning disabilities (LDs) in school.</p>
+          <p>Latvia, lead partner</p>
+          <Button href="http://www.disleksija.lv/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <h2>org3</h2>
+          <Img fluid={logo.logo2.childImageSharp.fluid} />
         </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={4}>
-          <h2>org4</h2>
-        </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
+        <Col s={8}>
+          <h2>Srednja poklicna in tehniška šola Murska Sobota</h2>
+          <p>Slovenia A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+          various learning disabilities (LDs) in school.</p>
+          <Button href="http://www.s-ssts.ms.edus.si/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <h2>org5</h2>
+          <Img fluid={logo.logo3.childImageSharp.fluid} />
         </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
+        <Col s={8}>
+         <h2>Hodina H ZS</h2>
+         <p>Czech Republic A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+         the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+         (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+         various learning disabilities (LDs) in school.</p>
+          <Button href="http://www.hodinah.cz/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <h2>org6</h2>
+         <Img fluid={logo.logo4.childImageSharp.fluid} />
         </Col>
-        <Col xs={8}>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
-          <Button>To the organi</Button>
+        <Col s={8}>
+          <h2>Associacao Chek-in cooperacao e desenvolvimento</h2>
+          <p>Portugal A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+          various learning disabilities (LDs) in school.</p>
+          <Button href="http://www.checkin.org.pt/" target="_blank">More</Button>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={4}>
+         <Img fluid={logo.logo5.childImageSharp.fluid} />
+        </Col>
+        <Col s={8}>
+          <h2>ACD La Hoya</h2>
+          <p>Spain A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+          various learning disabilities (LDs) in school.</p>
+          <Button href="http://www.acdlahoya.org/" target="_blank">More</Button>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={4}>
+          <Img fluid={logo.logo6.childImageSharp.fluid} />
+        </Col>
+        <Col s={8}>
+          <h2>CO.RI.S.S</h2>
+          <p>Italy A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
+          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
+          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
+          various learning disabilities (LDs) in school.</p>
+          <Button
+          style={{ margin: "20px 0 40px" }} href="http://www.coriss.it/" target="_blank">More</Button>
         </Col>
       </Row>
 
@@ -102,8 +169,8 @@ class AboutPage extends React.Component {
     </div>
     )
   }
-}
 
 
+//style={{ margin: "20px 0 40px" }}
 
 export default AboutPage
