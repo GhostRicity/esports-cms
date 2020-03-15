@@ -39,6 +39,7 @@ background-size: cover;
 //hero element
 .jumbotron{
   border-radius: 0px !important;
+  background-color: #0057ff26 !important;
   align-items: center;
   text-align: center;
   min-height: 500px;
@@ -49,33 +50,48 @@ background-size: cover;
  -o-background-size: 100% 100%;
  background-size: 100% 100%;
  z-index: 200;
+ padding: 0px;
 
   h1 {
-    font-size:  3rem;
+    font-size:  2.5rem;
     align-items: center;
-    padding: 3rem;
+    padding: 2.5rem;
     color: white;
     letter-spacing: 10px;
     text-transform: uppercase;
     font-weight: 700;
     color: $white;
-    position: absolute;
     width: 100%;
     left: 0;
-    top: 40%;
-    transform: translateY(-50%);
     text-align: center;
     mix-blend-mode: difference;
     z-index: 9;
+    @media only screen
+      and (max-width : 720px) {
+        font-size:  2rem;
+        align-items: center;
+        padding: 2rem;
+        letter-spacing: 10px;
+   }
+    @media only screen
+      and (max-width : 500px){
+      font-size:  1.5rem;
+      align-items: center;
+      padding: 1rem;
+      letter-spacing: 3px;
+   }
   }
   p{
     margin-top: 1rem;
     padding-bottom: 1.75rem;
-    color: $black;
+    color: white;
   }
 
 }
 
+.main-image{
+  z-index: -10;
+}
 
 .container1 {
   //align-items: center;

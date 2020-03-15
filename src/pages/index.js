@@ -41,10 +41,8 @@ const bgImage = useStaticQuery(graphql`
 
       <div>
       <Header/>
+      <BackgroundImage fluid={bgImage.desktop.childImageSharp.fluid}>
       <Jumbotron id="home" className="jumbotron" style={{ marginTop: "3rem"}}>
-      <div className="main-image">
-        <Img fluid={bgImage.desktop.childImageSharp.fluid} />
-      </div>
         <h1>eSports - gaming for engagement at school</h1>
         <p>
           Gaming for Boosting School Engagement of Students with Learning Disabilities
@@ -55,6 +53,7 @@ const bgImage = useStaticQuery(graphql`
         <p>
         </p>
       </Jumbotron>
+      </BackgroundImage>
       <Container className="container1">
       <Row>
         <Col sm={4}>
