@@ -17,7 +17,7 @@ import Col from 'react-bootstrap/Col'
 
 class NewsForm extends React.Component{
   render () {
-    
+
     return (
       <div>
 
@@ -31,8 +31,7 @@ class NewsForm extends React.Component{
           <h2>Handbook</h2>
         </Col>
         <Col md="auto">
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
+          <p>This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. </p>
         </Col>
       </Row>
 

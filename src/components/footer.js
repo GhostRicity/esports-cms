@@ -44,7 +44,9 @@ console.log(data)
 
       </Row>
       <Row>
-      <p> Privacy policy </p>
+        <Link to={`#`} >
+          <p> Privacy policy </p>
+        </Link>
       </Row>
       <Row>
         <p> &copy; 2020 Eduards Birznieks</p>

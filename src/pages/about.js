@@ -87,76 +87,51 @@ console.log(logo)
         </Col>
         <Col s={8}>
           <h2>Latvijas Disleksijas biedrība</h2>
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-          various learning disabilities (LDs) in school.</p>
-          <p>Latvia, lead partner</p>
-          <Button href="http://www.disleksija.lv/" target="_blank">More</Button>
+          <Button style={{ margin: "20px 0 40px" }} href="http://www.disleksija.lv/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <Img fluid={logo.logo2.childImageSharp.fluid} />
+          <Img style={{ margin: "20px 0 40px" }} fluid={logo.logo2.childImageSharp.fluid} />
         </Col>
         <Col s={8}>
-          <h2>Srednja poklicna in tehniška šola Murska Sobota</h2>
-          <p>Slovenia A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-          various learning disabilities (LDs) in school.</p>
-          <Button href="http://www.s-ssts.ms.edus.si/" target="_blank">More</Button>
+          <h2 style={{ margin: "20px 0 40px" }}>Srednja poklicna in tehniška šola Murska Sobota</h2>
+          <Button style={{ margin: "20px 0 40px" }} href="http://www.s-ssts.ms.edus.si/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <Img fluid={logo.logo3.childImageSharp.fluid} />
+          <Img style={{ margin: "20px 0 40px" }} fluid={logo.logo3.childImageSharp.fluid} />
         </Col>
         <Col s={8}>
-         <h2>Hodina H ZS</h2>
-         <p>Czech Republic A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-         the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-         (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-         various learning disabilities (LDs) in school.</p>
-          <Button href="http://www.hodinah.cz/" target="_blank">More</Button>
+         <h2 style={{ margin: "20px 0 40px" }}>Hodina H ZS</h2>
+          <Button style={{ margin: "20px 0 40px" }} href="http://www.hodinah.cz/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-         <Img fluid={logo.logo4.childImageSharp.fluid} />
+         <Img style={{ margin: "20px 0 40px" }} fluid={logo.logo4.childImageSharp.fluid} />
         </Col>
         <Col s={8}>
-          <h2>Associacao Chek-in cooperacao e desenvolvimento</h2>
-          <p>Portugal A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-          various learning disabilities (LDs) in school.</p>
-          <Button href="http://www.checkin.org.pt/" target="_blank">More</Button>
+          <h2 style={{ margin: "20px 0 40px" }}>Associacao Chek-in cooperacao e desenvolvimento</h2>
+          <Button style={{ margin: "20px 0 40px" }} href="http://www.checkin.org.pt/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-         <Img fluid={logo.logo5.childImageSharp.fluid} />
+         <Img style={{ margin: "20px 0 40px" }} fluid={logo.logo5.childImageSharp.fluid} />
         </Col>
         <Col s={8}>
-          <h2>ACD La Hoya</h2>
-          <p>Spain A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-          various learning disabilities (LDs) in school.</p>
-          <Button href="http://www.acdlahoya.org/" target="_blank">More</Button>
+          <h2 style={{ margin: "20px 0 40px" }}>ACD La Hoya</h2>
+          <Button style={{ margin: "20px 0 40px" }} href="http://www.acdlahoya.org/" target="_blank">More</Button>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <Img fluid={logo.logo6.childImageSharp.fluid} />
+          <Img style={{ margin: "20px 0 40px" }} fluid={logo.logo6.childImageSharp.fluid} />
         </Col>
         <Col s={8}>
-          <h2>CO.RI.S.S</h2>
-          <p>Italy A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started
-          the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities
-          (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with
-          various learning disabilities (LDs) in school.</p>
+          <h2 style={{ margin: "20px 0 40px" }}>CO.RI.S.S</h2>
           <Button
           style={{ margin: "20px 0 40px" }} href="http://www.coriss.it/" target="_blank">More</Button>
         </Col>
