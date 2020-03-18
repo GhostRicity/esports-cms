@@ -8,8 +8,9 @@ import Footer from "../components/footer"
 //bootstrap
 import Container from 'react-bootstrap/Container'
 
+
 import SEO from "../components/seo"
-import  rhythm from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {

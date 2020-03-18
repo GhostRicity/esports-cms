@@ -42,7 +42,7 @@ class HandBook extends React.Component{
     </Card.Text>
   </Card.Body>
   <Card.Body>
-    <Card.Link href="reader">Read</Card.Link>
+    <Card.Link href="/reader">Read</Card.Link>
     <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
   </Card.Body>
 </Card>
@@ -58,7 +58,7 @@ Read hear or downolade for later use
 </Card.Text>
 </Card.Body>
 <Card.Body>
-<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="/reader">Read</Card.Link>
 <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
 </Card.Body>
 </Card>
@@ -71,7 +71,7 @@ Read hear or downolade for later use
 </Card.Text>
 </Card.Body>
 <Card.Body>
-<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="/reader">Read</Card.Link>
 <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
 </Card.Body>
 </Card>
@@ -84,7 +84,7 @@ Read hear or downolade for later use
 </Card.Text>
 </Card.Body>
 <Card.Body>
-<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="/reader">Read</Card.Link>
 <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
 </Card.Body>
 </Card>
@@ -97,7 +97,7 @@ Read hear or downolade for later use
 </Card.Text>
 </Card.Body>
 <Card.Body>
-<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="/reader">Read</Card.Link>
 <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
 </Card.Body>
 </Card>
@@ -110,7 +110,7 @@ Read hear or downolade for later use
 </Card.Text>
 </Card.Body>
 <Card.Body>
-<Card.Link href="reader">Read</Card.Link>
+<Card.Link href="/reader">Read</Card.Link>
 <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
 </Card.Body>
 </Card>
@@ -123,7 +123,7 @@ Read hear or downolade for later use
         </Card.Text>
   </Card.Body>
   <Card.Body>
-    <Card.Link href="reader">Read</Card.Link>
+    <Card.Link href="/reader">Read</Card.Link>
     <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
   </Card.Body>
 </Card>

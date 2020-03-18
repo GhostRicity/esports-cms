@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-sass`,
     `gatsby-background-image`,
+    `reactjs-pdf-reader`,
     {
       resolve: `gatsby-plugin-mailchimp`,
       options: {

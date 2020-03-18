@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react'
 
 import { MobilePDFReader } from 'reactjs-pdf-reader'
 
-const Bookr = () => (
-
+class Bookr extends React.Component {
+  render(){
+    return(
     <div style={{
       overflow:'scroll',
       height:1000,
@@ -11,9 +12,10 @@ const Bookr = () => (
       top: '100px',
       maxWidth: '100%',
       }}>
-      <MobilePDFReader  url="http://localhost:8000/Rokas.pdf" isShowFooter="false"  isShowHeader="true"  showAllPage="true" />
+      <MobilePDFReader url="http://localhost:8000/Rokas.pdf" isShowFooter="false"  isShowHeader="true"  showAllPage="true" />
      </div>
-
-)
+   )
+  }
+}
 
 export default Bookr
