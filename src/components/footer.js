@@ -49,7 +49,7 @@ console.log(data)
         </Link>
       </Row>
       <Row>
-        <p> &copy; 2020 Eduards Birznieks</p>
+        <p> &copy; 2020 LDB</p>
       </Row>
     </Jumbotron>
   </footer>

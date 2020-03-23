@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `eSports`,
     author: `Eduards Birznieks`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `Esports is a EU project and this iste host handbook and Netlify CMS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
