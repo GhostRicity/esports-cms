@@ -6,7 +6,7 @@ module.exports = {
     description: `Esports is a EU project and this iste host handbook and Netlify CMS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `Latv_disl_biedr`,
     },
   },
   plugins: [
@@ -106,7 +106,7 @@ module.exports = {
       theme_color: `#663399`,
       display: `minimal-ui`,
       // edit below
-      icon: `content/assets/gatsby-icon.png`,
+      //icon: `content/assets/gatsby-icon.png`,
     },
   },
   {
