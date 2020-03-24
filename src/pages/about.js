@@ -22,42 +22,42 @@ const logo  = useStaticQuery(graphql`
   query {
     logo1: file(relativePath: { eq: "ldb-logo.jpg"}) {
   childImageSharp {
-    fluid(quality: 90, maxWidth: 300) {
+    fluid(quality: 90, maxWidth: 250) {
       ...GatsbyImageSharpFluid_withWebp
      }
     }
   }
   logo2: file(relativePath: { eq: "spts-logo.jpg"}) {
 childImageSharp {
-  fluid(quality: 100, maxWidth: 300) {
+  fluid(quality: 100, maxWidth: 250) {
     ...GatsbyImageSharpFluid_withWebp
    }
   }
 }
   logo3: file(relativePath: { eq: "hodina-logo.png"}) {
 childImageSharp {
-  fluid(quality: 90, maxWidth: 300) {
+  fluid(quality: 90, maxWidth: 250) {
     ...GatsbyImageSharpFluid_withWebp
     }
    }
   }
   logo4: file(relativePath: { eq: "chekin-logo.png"}) {
 childImageSharp {
-  fluid(quality: 90, maxWidth: 300) {
+  fluid(quality: 90, maxWidth: 250) {
     ...GatsbyImageSharpFluid_withWebp
    }
   }
 }
   logo5: file(relativePath: { eq: "acd-logo.png"}) {
 childImageSharp {
-  fluid(quality: 90, maxWidth: 300) {
+  fluid(quality: 90, maxWidth: 250) {
   ...GatsbyImageSharpFluid_withWebp
     }
    }
   }
   logo6: file(relativePath: { eq: "coriss-logo.jpg"}) {
 childImageSharp {
-  fluid(quality: 90, maxWidth: 300) {
+  fluid(quality: 90, maxWidth: 250) {
   ...GatsbyImageSharpFluid_withWebp
     }
    }
@@ -77,8 +77,8 @@ console.log(logo)
           <h2>About</h2>
         </Col>
         <Col md="auto">
-          <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426). The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school. </p>
-          <p> Students with dyslexia and other learning disabilities are often quite detached from school life and do not get the benefit of socialization and skills development that extra-curricular activities give. Current research and practice suggest that gaming and e-sports are good for developing many skills like concentration, focus, decision making. They also provide a venue for socialising, using of foreign languages and contributing to street credibility as achievement in any sports of a school team does.</p>
+          <p>This section is under development. This section is under development. This section is under development. This section is under development.</p>
+          <p>This section is under development. This section is under development. This section is under development. This section is under development.</p>
         </Col>
       </Row>
       <Row>

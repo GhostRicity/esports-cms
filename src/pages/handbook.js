@@ -38,11 +38,10 @@ class HandBook extends React.Component{
   <Card.Body>
     <Card.Title>Handbook Eng</Card.Title>
     <Card.Text>
-      Read hear or downolade for later use
+       This section is under development.
     </Card.Text>
   </Card.Body>
   <Card.Body>
-    <Card.Link href="/reader">Read</Card.Link>
     <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
   </Card.Body>
 </Card>
@@ -50,11 +49,23 @@ class HandBook extends React.Component{
 </Row>
 <Row>
 
+  <Card style={{ width: '18rem' }}>
+<Card.Body>
+  <Card.Title>Handbook Eng</Card.Title>
+  <Card.Text>
+    This section is under development.
+  </Card.Text>
+</Card.Body>
+<Card.Body>
+  <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
+</Card.Body>
+</Card>
+
 <Card style={{ width: '18rem' }}>
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-Read hear or downolade for later use
+This section is under development.
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -67,7 +78,7 @@ Read hear or downolade for later use
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-Read hear or downolade for later use
+This section is under development.e
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -80,7 +91,7 @@ Read hear or downolade for later use
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-Read hear or downolade for later use
+This section is under development.
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -90,40 +101,25 @@ Read hear or downolade for later use
 </Card>
 
 <Card style={{ width: '18rem' }}>
-<Card.Body>
-<Card.Title>Handbook Eng</Card.Title>
-<Card.Text>
-Read hear or downolade for later use
-</Card.Text>
-</Card.Body>
-<Card.Body>
-<Card.Link href="/reader">Read</Card.Link>
-<Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
-</Card.Body>
-</Card>
-
-<Card style={{ width: '18rem' }}>
-<Card.Body>
-<Card.Title>Handbook Eng</Card.Title>
-<Card.Text>
-Read hear or downolade for later use
-</Card.Text>
-</Card.Body>
-<Card.Body>
-<Card.Link href="/reader">Read</Card.Link>
-<Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
-</Card.Body>
+  <Card.Body>
+  <Card.Title>Handbook Eng</Card.Title>
+    <Card.Text>
+     This section is under development.
+    </Card.Text>
+  </Card.Body>
+  <Card.Body>
+    <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
+    </Card.Body>
 </Card>
 
 <Card style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>Handbook Eng</Card.Title>
       <Card.Text>
-        Read hear or downolade for later use
+        This section is under development.
         </Card.Text>
   </Card.Body>
   <Card.Body>
-    <Card.Link href="/reader">Read</Card.Link>
     <Card.Link href="http://localhost:8000/Rokas.pdf" download>Download</Card.Link>
   </Card.Body>
 </Card>

@@ -22,7 +22,7 @@ const bgImage = useStaticQuery(graphql`
     query BgImage {
        desktop: file(relativePath: { eq: "esports-1.jpg" }) {
         childImageSharp {
-          fluid(quality: 90, maxWidth: 1920) {
+          fluid(quality: 70, maxWidth: 1920) {
           ...GatsbyImageSharpFluid_withWebp
 
         }
@@ -44,7 +44,7 @@ const bgImage = useStaticQuery(graphql`
           Gaming for Boosting School Engagement of Students with Learning Disabilities
         </p>
         <p>
-         (Ref. No 2019-1-LV01-KA201-060426)
+         Ref. No 2019-1-LV01-KA201-060426
         </p>
         <p>
         </p>
