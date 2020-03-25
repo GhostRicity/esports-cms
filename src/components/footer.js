@@ -36,7 +36,7 @@ console.log(data)
           <p> Ref. No 2019-1-LV01-KA201-060426 </p>
         </Col>
         <Col sm={4}>
-          
+
         </Col>
       </Row>
       <Row>
@@ -44,10 +44,8 @@ console.log(data)
       </Row>
       <Row>
         <Link to={`#`} >
-          <p> Privacy policy </p>
+          <p> Privacy policy </p>   <p> &copy; 2020 LDB</p>
         </Link>
-      </Row>
-      <Row>
         <p> &copy; 2020 LDB</p>
       </Row>
     </Jumbotron>
