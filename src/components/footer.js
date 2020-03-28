@@ -46,7 +46,9 @@ console.log(data)
         <Link to={`#`} >
           <p> Privacy policy </p>   <p> &copy; 2020 LDB</p>
         </Link>
-        <p> &copy; 2020 LDB</p>
+        © {new Date().getFullYear()}, Built by
+        {` `}
+        <a href="http://www.disleksija.lv/">LDB</a>
       </Row>
     </Jumbotron>
   </footer>
