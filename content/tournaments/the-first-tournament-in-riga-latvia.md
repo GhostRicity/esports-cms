@@ -1,5 +1,5 @@
 ---
-path: tournaments
+path: 'https://www.gaming-erasmus.eu/tournaments/'
 date: 2020-03-28T11:17:12.700Z
 title: 'The first tournament in Riga, Latvia'
 description: >-
