@@ -6,7 +6,7 @@ description: >-
   The first Tournament of the project Gaming for boosting school engagement of
   students with learning disabilities in Riga, Latvia
 ---
-## Riga welcomes Erasmus +
+## Riga welcomes Erasmus+
 
 To learn how much gaming can positively influence any school student and thus also a student who has learning disabilities (LDs), the project partners met in Riga, Latvia, on March 3-5, 2020, for a League of Legends (LoL) tournament. When games are played competitively, they become e-sports which adds more excitement and sense of team to the whole process. The aim of this tournament was to see what the benefits of e-sports for young people are and how we can transfer these benefits to the school environment.
 
