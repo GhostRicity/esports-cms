@@ -1,7 +1,7 @@
 ---
-path: tournament
+path: tournaments
 date: 2020-03-28T11:17:12.700Z
-title: 'The first Tournament in Riga, Latvia'
+title: 'The first tournament in Riga, Latvia'
 description: >-
   The first Tournament of the project Gaming for boosting school engagement of
   students with learning disabilities in Riga, Latvia
