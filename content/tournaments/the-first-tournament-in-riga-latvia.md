@@ -10,6 +10,11 @@ description: >-
 
 To learn how much gaming can positively influence any school student and thus also a student who has learning disabilities (LDs), the project partners met in Riga, Latvia, on March 3-5, 2020, for a League of Legends (LoL) tournament. When games are played competitively, they become e-sports which adds more excitement and sense of team to the whole process. The aim of this tournament was to see what the benefits of e-sports for young people are and how we can transfer these benefits to the school environment.
 
+> We were really happy with the energy and activity of our partners and their teams. \
+> Eva Birzniece \
+> Executive Director\
+> Latvian Dyslexia Association 
+
 ## 5 teams - one winner!
 
 There were five participating teams in the face-to-face tournament – a team of Srednja poklicna in tehniška šola Murska Sobota from Slovenia led by their very enthusiastic IT teacher Dominik Letnar, Hodina H from Czech Republic led by a young German volunteer Jesco Naeve, ACD La Hoya from Spain led by a true NGO warrior Jose Sánchez Jiménez, Check-In from Portugal led by a non-formal education guru and trainer Antonio Gomez and Latvian Dyslexia Association from Latvia led by Eduards Birznieks, a true gamer since early childhood. The Italian team from CORISS tried to participate from their hometown Tiriolo in the south of Italy (as they could not travel to Latvia because of travel restrictions imposed due to Covid-19 outbreak) but this was not possible because of the strict timing of the tournament.
