@@ -31,24 +31,18 @@ console.log(data)
   <footer>
     <Jumbotron className="footer">
       <Row>
-        <Col sm={6}>
+        <Col sm={4}>
           <Img fixed={data.image.childImageSharp.fixed} alt="Erasmus+ logo" />
           <p> Ref. No 2019-1-LV01-KA201-060426 </p>
         </Col>
         <Col sm={4}>
-
-        </Col>
-      </Row>
-      <Row>
-
-      </Row>
-      <Row>
-        <Link to={`#`} >
-          <p> Privacy policy </p>   <p> &copy; 2020 LDB</p>
-        </Link>
         © {new Date().getFullYear()}, Built by
         {` `}
         <a href="http://www.disleksija.lv/">LDB</a>
+        </Col>
+        <Col sm={4}>
+
+        </Col>
       </Row>
     </Jumbotron>
   </footer>
