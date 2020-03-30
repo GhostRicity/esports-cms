@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 
+
 //bootstrap
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
@@ -25,7 +26,6 @@ const data = useStaticQuery(graphql`
     }
   }
   `)
-console.log(data)
 
   return (
   <footer>
@@ -41,6 +41,10 @@ console.log(data)
         <a href="http://www.disleksija.lv/">LDB</a>
         </Col>
         <Col sm={4}>
+
+        <a href="https://www.facebook.com/Gaming-for-Boosting-School-Engagement-109006730574121/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <br/>
+        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
 
         </Col>
       </Row>

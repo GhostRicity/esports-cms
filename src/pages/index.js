@@ -30,8 +30,6 @@ const bgImage = useStaticQuery(graphql`
     }
   }
     `)
-  console.log(bgImage)
-
 
     return (
 

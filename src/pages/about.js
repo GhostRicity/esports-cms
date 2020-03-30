@@ -64,7 +64,7 @@ childImageSharp {
   }
 }
 `)
-console.log(logo)
+
 
     return (
       <div>

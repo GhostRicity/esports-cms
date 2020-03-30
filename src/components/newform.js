@@ -54,7 +54,7 @@ class MailchimpForm extends React.Component {
       />
       <br/>
       <Button variant="success"  label="submit" type="submit">
-      Receive Newsletter
+      Receive newsletter
       </Button>
       </form>
       )

@@ -21,7 +21,9 @@ class Blog extends React.Component {
     return (
     <div>
       <Header/>
-      <Container className="container1" style={{ paddingTop: "3rem"}}>
+      <Container className="container1" style={{
+        paddingTop: "4rem"
+      }}>
 
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
@@ -46,9 +48,9 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        </Container>
-      <Footer/>
-      </div>
+    </Container>
+  <Footer/>
+</div>
     )
   }
 }
