@@ -8,7 +8,7 @@ import Footer from "../components/footer"
 //bootstrap
 import Container from 'react-bootstrap/Container'
 
-
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
@@ -18,9 +18,10 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <div>
+      <Layout location={this.props.location} >
+      <div style={{ paddingTop: "4rem"}}>
       <Header/>
-      <Container className="container1" style={{ paddingTop: "4rem"}}>
+
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
@@ -64,10 +65,9 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        </Container>
         <Footer/>
         </div>
-
+      </Layout>
     )
   }
 }
