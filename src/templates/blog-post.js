@@ -5,13 +5,6 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 //componets
 import Header from "../components/header"
 import Footer from "../components/footer"
-//bootstrap
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,8 +17,6 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-      <Header/>
-
       <Layout location={this.props.location} >
       <div style={{ paddingTop: "4rem"}}>
 
@@ -76,7 +67,6 @@ class BlogPostTemplate extends React.Component {
 
         </div>
       </Layout>
-        <Footer/>
       </div>
     )
   }
