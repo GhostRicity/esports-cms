@@ -19,7 +19,7 @@ To learn how much gaming can positively influence any school student and thus al
 
 There were five participating teams in the face-to-face tournament – a team of Srednja poklicna in tehniška šola Murska Sobota from Slovenia led by their very enthusiastic IT teacher Dominik Letnar, Hodina H from Czech Republic led by a young German volunteer Jesco Naeve, ACD La Hoya from Spain led by a true NGO warrior Jose Sánchez Jiménez, Check-In from Portugal led by a non-formal education guru and trainer Antonio Gomez and Latvian Dyslexia Association from Latvia led by Eduards Birznieks, a true gamer since early childhood. The Italian team from CORISS tried to participate from their hometown Tiriolo in the south of Italy (as they could not travel to Latvia because of travel restrictions imposed due to Covid-19 outbreak) but this was not possible because of the strict timing of the tournament.
 
-![Spanish and Slovenian teams](/content/assets/image-from-ios.jpg "Teams from Spain and Slovenia")
+![Spanish and Slovenian teams](../content/assets/image-from-ios.jpg "Teams from Spain and Slovenia")
 
 
 The tournament was held in the premises of the e-sports club GoExAnimo which provided the necessary infrastructure including computers and Internet connection, organizational support, live streaming and casting of the games on the first day.

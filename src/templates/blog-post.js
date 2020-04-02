@@ -18,9 +18,12 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
+      <div>
+      <Header/>
+
       <Layout location={this.props.location} >
       <div style={{ paddingTop: "4rem"}}>
-      <Header/>
+
 
         <SEO
           title={post.frontmatter.title}
@@ -65,9 +68,11 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <Footer/>
+
         </div>
       </Layout>
+        <Footer/>
+      </div>
     )
   }
 }
