@@ -62,13 +62,6 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-source-filesystem`,
-        options: {
-            path: `${__dirname}/static/assets`,
-            name: 'images',
-        },
-},
-    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
@@ -77,9 +70,6 @@ module.exports = {
             options: {
               maxWidth: 590,
             },
-          },
-          {
-            resolve: 'gatsby-remark-relative-images',
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
@@ -101,29 +91,29 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
-    options: {
-      // edit below
-      // trackingId: `ADD YOUR TRACKING ID HERE`,
+      options: {
+        // edit below
+        // trackingId: `ADD YOUR TRACKING ID HERE`,
+      },
     },
-  },
-  {
-    resolve: `gatsby-plugin-manifest`,
-    options: {
-      name: `Gatsby Starter Blog`,
-      short_name: `GatsbyJS`,
-      start_url: `/`,
-      background_color: `#ffffff`,
-      theme_color: `#663399`,
-      display: `minimal-ui`,
-      // edit below
-      //icon: `content/assets/gatsby-icon.png`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        // edit below
+        //icon: `content/assets/gatsby-icon.png`,
+      },
     },
-  },
-  {
-    resolve: `gatsby-plugin-typography`,
-    options: {
-      pathToConfigModule: `src/utils/typography`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
-  },
-],
+  ],
 }

@@ -4,8 +4,6 @@ import styled from "styled-components"
 
 import { rhythm, scale } from "../utils/typography"
 //componets
-import Header from "../components/header"
-import Footer from "../components/footer"
 
 class Layout extends React.Component {
   render() {
@@ -14,51 +12,8 @@ class Layout extends React.Component {
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
 
-    if (location.pathname === rootPath || location.pathname === blogPath) {
-      header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/blog/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
     return (
       <Wrapper>
-      <Header/>
         <div
           style={{
             marginLeft: `auto`,
@@ -69,7 +24,6 @@ class Layout extends React.Component {
         >
           <main>{children}</main>
         </div>
-        <Footer/>
       </Wrapper>
     )
   }
