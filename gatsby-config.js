@@ -62,6 +62,13 @@ module.exports = {
       },
     },
     {
+    resolve: `gatsby-source-filesystem`,
+        options: {
+            path: `${__dirname}/static/assets`,
+            name: 'images',
+        },
+},
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
@@ -70,6 +77,9 @@ module.exports = {
             options: {
               maxWidth: 590,
             },
+          },
+          {
+            resolve: 'gatsby-remark-relative-images',
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
