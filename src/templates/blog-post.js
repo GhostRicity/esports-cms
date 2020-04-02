@@ -6,8 +6,9 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
+//import styles
+import '../styles/styles.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
