@@ -44,7 +44,7 @@ const data = useStaticQuery(graphql`
 
         <a href="https://www.facebook.com/Gaming-for-Boosting-School-Engagement-109006730574121/" target="_blank" rel="noopener noreferrer">Facebook</a>
         <br/>
-        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.instagram.com/gaming_erasmus19/" target="_blank" rel="noopener noreferrer">Instagram</a>
 
         </Col>
       </Row>
