@@ -74,12 +74,43 @@ childImageSharp {
       </Row>
       <Row>
         <Col xl>
-          <h2>About</h2>
+          <h2 style={{ margin: "20px 0 40px" }}>About</h2>
+          <h3>Eramsus+ strategic partnership project - gaming for engagement at school of students with learning disabilities </h3>
+
         </Col>
         <Col md="auto">
-          <p>This section is under development. This section is under development. This section is under development. This section is under development.</p>
-          <p>This section is under development. This section is under development. This section is under development. This section is under development.</p>
+          <p>A consortium of six partners led by the Latvian Dyslexia Association
+          (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for
+          Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426).
+           The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school.</p>
+           <p>Students with dyslexia and other learning disabilities are often quite detached from
+            school life and do not get the benefit of socialization and skills development that
+            extra-curricular activities give. Current research and practice suggest that gaming
+            and e-sports are good for developing many skills like concentration, focus,
+            decision making. They also provide a venue for socialising, using of foreign
+            languages and contributing to street credibility as achievement in any sports of a
+            school team does.
+            </p>
+            <p>The partners of the project are Asociacion Cultural y Deportiva la Hoya (Spain),
+              Associacao Check-in - Cooperacao e Desenvolvimento (Portugal), CO.RI.S.S
+              (Italy), Hodina H ZS (Czech Republic) and Srednja poklicna in tehniska šola
+              Murska Sobota (Slovenia). The duration of the project is two years.
+            </p>
+            <p>
+            The project consortium will assemble the research and best practice to highlight the gains from e-sports for students with LDs and create a manual for schools to organize gaming and e-sports tournaments at schools.
+            The training material for this will be filmed during the three tournaments where teams of students with LDs from all six partner countries will come together to play League of Legends (LoL).
+            </p>
+            <p>
+            The research, manual and training videos will be placed on a web site specially created for the project. The project will use Agile tools and techniques in project management and development. Agile is a highly demanded work skill in the Information
+            Technology industry and this can create a professional path for many students with LDs.
+            </p>
+
         </Col>
+      </Row>
+      <Row>
+      <Col md="auto">
+      <h2 style={{ margin: "20px 0 40px" }}>Project Partners</h2>
+      </Col>
       </Row>
       <Row>
         <Col sm={4}>

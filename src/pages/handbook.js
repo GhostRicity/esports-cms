@@ -30,7 +30,7 @@ class HandBook extends React.Component{
           <h2>Handbook</h2>
         </Col>
         <Col md="auto">
-          <p>This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. This section is under development. </p>
+          <p>This section is under development.</p>
         </Col>
       </Row>
       <Row>
