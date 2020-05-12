@@ -1,5 +1,5 @@
 ---
-path: tournaments
+path: blog
 date: 2020-04-29T13:48:22.597Z
 title: Hodina  H hosted a League of Legends tournament 23-25 of April
 description: >-
