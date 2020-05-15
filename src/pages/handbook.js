@@ -30,7 +30,7 @@ class HandBook extends React.Component{
           <h2>Handbook</h2>
         </Col>
         <Col md="auto">
-          <p>This section is under development.</p>
+          <p>The project team is working on developing this content.</p>
         </Col>
       </Row>
       <Row>
@@ -53,7 +53,7 @@ class HandBook extends React.Component{
 <Card.Body>
   <Card.Title>Handbook Eng</Card.Title>
   <Card.Text>
-    This section is under development.
+    The project team is working on developing this content.
   </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -65,7 +65,7 @@ class HandBook extends React.Component{
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-This section is under development.
+The project team is working on developing this content.
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -78,7 +78,7 @@ This section is under development.
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-This section is under development.e
+The project team is working on developing this content.
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -91,7 +91,7 @@ This section is under development.e
 <Card.Body>
 <Card.Title>Handbook Eng</Card.Title>
 <Card.Text>
-This section is under development.
+The project team is working on developing this content.
 </Card.Text>
 </Card.Body>
 <Card.Body>
@@ -104,7 +104,7 @@ This section is under development.
   <Card.Body>
   <Card.Title>Handbook Eng</Card.Title>
     <Card.Text>
-     This section is under development.
+     The project team is working on developing this content.
     </Card.Text>
   </Card.Body>
   <Card.Body>
@@ -116,7 +116,7 @@ This section is under development.
   <Card.Body>
     <Card.Title>Handbook Eng</Card.Title>
       <Card.Text>
-        This section is under development.
+        The project team is working on developing this content.
         </Card.Text>
   </Card.Body>
   <Card.Body>

@@ -54,7 +54,7 @@ const bgImage = useStaticQuery(graphql`
           <h2>eSports</h2>
         </Col>
         <Col xl={8}>
-        <p>This section is under development. </p>
+        <p>The project team is working on developing this content.</p>
         </Col>
       </Row>
       <Row>
@@ -62,21 +62,21 @@ const bgImage = useStaticQuery(graphql`
           <h2>handbook</h2>
         </Col>
         <Col xl={8}>
-        <p>This section is under development.</p>
+        <p>The project team is working on developing this content.</p>
         </Col>
 
       </Row>
       <Row>
         <Col sm><h2>about</h2>
-          <p>This section is under development. </p>
+          <p>The project team is working on developing this content.</p>
         </Col>
         <Col sm>
           <h2>newsletter</h2>
-          <p>This section is under development. </p>
+          <p>The project team is working on developing this content.</p>
         </Col>
         <Col sm>
           <h2>tournament</h2>
-          <p>This section is under development. </p>
+          <p>The project team is working on developing this content.</p>
         </Col>
       </Row>
 
