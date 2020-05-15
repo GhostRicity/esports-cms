@@ -16,7 +16,6 @@ const Header = () => (
         <Nav.Link href="/handbook">handbook</Nav.Link>
         <Nav.Link href="/research">research</Nav.Link>
         <Nav.Link href="/tournaments">Tournament</Nav.Link>
-        <Nav.Link href="/newsletter">newsletter</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
