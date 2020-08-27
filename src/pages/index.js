@@ -5,6 +5,8 @@ import BackgroundImage from 'gatsby-background-image'
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
+import SEO from "../components/seo"
+import Layout from "../components/layout"
 
 //import styles
 import '../styles/styles.scss'
@@ -32,11 +34,12 @@ const bgImage = useStaticQuery(graphql`
     `)
 
     return (
-
       <div>
+
+      <SEO title="eSports" />
       <Header/>
       <BackgroundImage fluid={bgImage.desktop.childImageSharp.fluid}>
-      <Jumbotron id="home" className="jumbotron" style={{ marginTop: "3rem"}}>
+      <Jumbotron id="home" className="jumbotron">
         <h1>eSports - gaming for engagement at school</h1>
         <p>
           Gaming for Boosting School Engagement of Students with Learning Disabilities
@@ -48,6 +51,7 @@ const bgImage = useStaticQuery(graphql`
         </p>
       </Jumbotron>
       </BackgroundImage>
+      <Layout>
       <Container className="container1">
       <Row>
         <Col sm={4}>
@@ -81,8 +85,8 @@ const bgImage = useStaticQuery(graphql`
       </Row>
 
       </Container>
+      </Layout>
       <Footer/>
-
     </div>
 
   )

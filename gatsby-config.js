@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `eSports`,
-    author: `Eduards Birznieks`,
-    description: `Esports is a EU project and this iste host handbook and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Erasmus eSports`,
+    author: `Latvijas Disleksijas biedrība`,
+    description: `Esports is an Erasmus plus project and this is where we share news,  host handbook, and research.`,
+    siteUrl: `https://www.gaming-erasmus.eu/`,
     social: {
       twitter: `Latv_disl_biedr`,
     },

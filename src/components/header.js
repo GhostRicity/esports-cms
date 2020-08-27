@@ -13,7 +13,7 @@ const Header = () => (
       <Nav className="mr-auto justify-content-end" >
         <Nav.Link href="/blog">news</Nav.Link>
         <Nav.Link href="/about">about</Nav.Link>
-        <Nav.Link href="/handbook">handbook</Nav.Link>
+
         <Nav.Link href="/research">research</Nav.Link>
         <Nav.Link href="/tournaments">Tournament</Nav.Link>
       </Nav>
@@ -23,3 +23,5 @@ const Header = () => (
 )
 
 export default Header
+
+  //<Nav.Link href="/handbook">handbook</Nav.Link>
