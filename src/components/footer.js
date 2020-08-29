@@ -1,10 +1,15 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 import { GrInstagram } from 'react-icons/gr';
 import { GrFacebook } from 'react-icons/gr';
 
+
 //bootstrap
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
