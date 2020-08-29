@@ -3,6 +3,7 @@ import React from "react"
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
+import SEO from "../components/seo"
 
 //import styles
 import '../styles/styles.scss'
@@ -19,7 +20,7 @@ class HandBook extends React.Component{
   render(){
    return (
       <div>
-
+      <SEO title="Handbook"/>
       <Header/>
 
       <Container  className="container1" style={{ marginTop: "5rem"}}>

@@ -5,6 +5,8 @@ import Img from "gatsby-image"
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
+import SEO from "../components/seo"
+import Layout from "../components/layout"
 
 //import styles
 import '../styles/styles.scss'
@@ -68,8 +70,10 @@ childImageSharp {
 
     return (
       <div>
+      <SEO title="About"/>
       <Header/>
-      <Container  className="container1" style={{ marginTop: "5rem"}}>
+      <Layout>
+      <Container  className="container1" >
       <Row>
       </Row>
       <Row>
@@ -106,7 +110,9 @@ childImageSharp {
             </p>
 
         </Col>
+
       </Row>
+
       <Row>
       <Col md="auto">
       <h2 style={{ margin: "20px 0 40px" }}>Project Partners</h2>
@@ -170,6 +176,7 @@ childImageSharp {
 
 
       </Container>
+      </Layout>
       <Footer/>
 
     </div>
