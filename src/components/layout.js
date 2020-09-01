@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Footer from "../components/footer"
 
 import { rhythm, scale } from "../utils/typography"
 //componets

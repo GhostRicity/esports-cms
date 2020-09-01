@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
+import Layout from "../components/layout"
 
 //bootstrap
 import Container from 'react-bootstrap/Container'
@@ -23,6 +24,7 @@ class Tournaments extends React.Component {
     <div>
     <SEO title="Tournaments"/>
       <Header/>
+      <Layout>
       <Container className="container1" style={{ paddingTop: "4rem"}}>
 
         <div style={{ margin: "20px 0 40px" }}>
@@ -49,6 +51,7 @@ class Tournaments extends React.Component {
           })}
         </div>
         </Container>
+        </Layout>
       <Footer/>
       </div>
     )
