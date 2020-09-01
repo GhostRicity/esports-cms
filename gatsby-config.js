@@ -105,9 +105,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
+        name: `Erasmus eSports`,
+        short_name: `eSports`,
+        start_url: `https://www.gaming-erasmus.eu/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
+import { Link } from 'gatsby'
 
 //import componets
 import Header from "../components/header"
@@ -17,6 +18,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 
 
 const IndexPage = () => {
@@ -58,7 +60,17 @@ const bgImage = useStaticQuery(graphql`
           <h2>eSports</h2>
         </Col>
         <Col xl={8}>
-        <p>The project team is working on developing this content.</p>
+        <p>A consortium of six partners led by the Latvian Dyslexia Association (Latvia) has started the Erasmus+ KA2 strategic partnership project Gaming for Boosting School Engagement of Students with Learning Disabilities (Ref. No 2019-1-LV01-KA201-060426).
+        The aim of the project is to popularize e-sports as a tool for engaging students with various learning disabilities (LDs) in school.</p>
+          <Button >
+            <Link
+            style={{
+               margin: "20px 0 40px",
+               color: "white",
+               textDecoration: 'none'
+            }}
+            to="/about">Read more</Link>
+          </Button>
         </Col>
       </Row>
       <Row>
@@ -68,22 +80,7 @@ const bgImage = useStaticQuery(graphql`
         <Col xl={8}>
         <p>The project team is working on developing this content.</p>
         </Col>
-
       </Row>
-      <Row>
-        <Col sm><h2>about</h2>
-          <p>The project team is working on developing this content.</p>
-        </Col>
-        <Col sm>
-          <h2>newsletter</h2>
-          <p>The project team is working on developing this content.</p>
-        </Col>
-        <Col sm>
-          <h2>tournament</h2>
-          <p>The project team is working on developing this content.</p>
-        </Col>
-      </Row>
-
       </Container>
       </Layout>
       <Footer/>
