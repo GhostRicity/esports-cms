@@ -35,7 +35,7 @@ class Research extends React.Component {
                 <h3>
                   <Link
                     style={{ boxShadow: `none` }}
-                    to={`blog${node.fields.slug}`}
+                    to={`${node.fields.slug}`}
                   >
                     {title}
                   </Link>

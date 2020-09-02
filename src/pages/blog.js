@@ -23,7 +23,7 @@ class Blog extends React.Component {
     return (
     <div>
       <Header/>
-      <SEO title="About"/>
+      <SEO title="erasmus+ eSports news"/>
       <Layout>
       <Container className="container1" style={{
         paddingTop: "4rem"
@@ -37,7 +37,7 @@ class Blog extends React.Component {
                 <h3>
                   <Link
                     style={{ boxShadow: `none` }}
-                    to={`blog${node.fields.slug}`}
+                    to={`${node.fields.slug}`}
                   >
                     {title}
                   </Link>
