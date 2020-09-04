@@ -16,6 +16,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
+      - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
       - { name: body, label: Body, widget: markdown }
   - label: Research
     name: research
@@ -27,6 +28,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
+      - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
       - { name: body, label: Body, widget: markdown }
   - label: Tournaments
     name: tournaments
@@ -38,4 +40,5 @@ collections:
      - { name: date, label: Date, widget: date }
      - { name: title, label: Title }
      - { name: description, label: Description }
+     - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
      - { name: body, label: Body, widget: markdown }
