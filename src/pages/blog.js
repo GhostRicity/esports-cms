@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+import Card from "../components/cards"
 
 //bootstrap
 import Container from 'react-bootstrap/Container'
@@ -18,7 +19,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 class Blog extends React.Component {
   render() {
     const { data } = this.props
+    //const posts = data.allMdx.edges
+
     const posts = data.allMdx.edges
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge =>
+    <Card key={edge.node.id} data={edge.node} link={edge.node.fields.slug} />
+    )
 
     return (
     <div>
@@ -27,28 +34,8 @@ class Blog extends React.Component {
       <Layout>
       <Container className="container1" style={{ paddingTop: "4rem"}}>
 
-        <div style={{ margin: "20px 0 40px" }}>
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div key={node.fields.slug}>
-                <h3>
-                  <Link
-                    style={{ boxShadow: `none` }}
-                    to={`${node.fields.slug}`}
-                  >
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </div>
-            )
-          })}
+        <div className="grids sm-2 lg-3">
+          {posts}
         </div>
     </Container>
     </Layout>
@@ -78,6 +65,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
