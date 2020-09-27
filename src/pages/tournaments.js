@@ -33,7 +33,7 @@ class Tournaments extends React.Component {
       <Header/>
       <Layout>
         <Container className="container1" style={{ paddingTop: "4rem"}}>
-          <div className="grids sm-2 lg-3">
+          <div className="grids sm-1 lg-2">
             {posts}
           </div>
         </Container>
