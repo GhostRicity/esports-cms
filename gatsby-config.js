@@ -10,20 +10,11 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed-mdx`,
-    `gatsby-plugin-sass`,
-    `gatsby-background-image`,
-    `reactjs-pdf-reader`,
     {
-      resolve: `gatsby-plugin-mailchimp`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        endpoint: `https://gmail.us4.list-manage.com/subscribe/post?u=79714e07b9a3adf6f81fb1a8f&amp;id=d006cb2dc9`,
+        path: `/${__dirname}/static/img`,
+        name: `img`,
       },
     },
     {
@@ -61,18 +52,31 @@ module.exports = {
         name: 'images'
       },
     },
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-sass`,
+    `gatsby-background-image`,
+    `reactjs-pdf-reader`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-mailchimp`,
       options: {
-        path: `/${__dirname}/static/img`,
-        name: `img`,
+        endpoint: `https://gmail.us4.list-manage.com/subscribe/post?u=79714e07b9a3adf6f81fb1a8f&amp;id=d006cb2dc9`,
       },
     },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [{
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,

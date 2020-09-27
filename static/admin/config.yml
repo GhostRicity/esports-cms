@@ -14,10 +14,11 @@ collections:
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
+      - { name: title, label: Title, widget: 'string' }
+      - { name: description, label: Description, widget: string }
+      - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
       - { name: body, label: Body, widget: markdown }
+
   - label: Research
     name: research
     identifier_field: research
@@ -27,9 +28,10 @@ collections:
       - { name: path, label: path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
+      - { name: description, label: Description, widget: string }
+      - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
       - { name: body, label: Body, widget: markdown }
+
   - label: Tournaments
     name: tournaments
     identifier_field: tournaments
@@ -38,7 +40,7 @@ collections:
     fields:
      - { name: path, label: path }
      - { name: date, label: Date, widget: date }
-     - { name: title, label: Title }
-     - { name: description, label: Description }
-     - { name: 'featuredImage', label: 'Featured Image', widget: 'image',required: false,  tagname: '' }
+     - { name: title, label: Title, required: true}
+     - { name: description, label: Description, widget: string }
+     - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
      - { name: body, label: Body, widget: markdown }

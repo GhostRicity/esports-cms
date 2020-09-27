@@ -5,6 +5,7 @@ title: 'The first tournament in Riga, Latvia'
 description: >-
   The first Tournament of the project Gaming for boosting school engagement of
   students with learning disabilities in Riga, Latvia
+featuredImage: /img/gxanimo.jpg
 ---
 ## Riga welcomes Erasmus+
 

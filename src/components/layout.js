@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
-import Footer from "../components/footer"
 
 import { rhythm, scale } from "../utils/typography"
 //componets
@@ -11,7 +9,7 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     //const rootPath = `${__PATH_PREFIX__}/`
     //const blogPath = `${__PATH_PREFIX__}/blog/`
-    let header
+    //let header
 
     return (
       <Wrapper>

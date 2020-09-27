@@ -25,9 +25,7 @@ class Blog extends React.Component {
       <Header/>
       <SEO title="erasmus+ eSports news"/>
       <Layout>
-      <Container className="container1" style={{
-        paddingTop: "4rem"
-      }}>
+      <Container className="container1" style={{ paddingTop: "4rem"}}>
 
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {

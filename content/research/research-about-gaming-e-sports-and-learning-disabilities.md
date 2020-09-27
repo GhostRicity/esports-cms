@@ -5,5 +5,5 @@ title: 'Research about gaming, e-sports, and learning disabilities'
 description: >-
   This section will have information about gaming for schools and students with
   learning disabilities.
+featuredImage: /img/gxanimo.jpg
 ---
-

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import Img from "gatsby-image"
 
 //componets
 import Header from "../components/header"
@@ -23,13 +24,19 @@ class BlogPostTemplate extends React.Component {
       <div>
       <Header/>
       <Layout location={this.props.location} >
-      <div style={{ paddingTop: "4rem"}}>
+      <div style={{ paddingTop: "2rem"}}>
 
 
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
+          <Img className="post-featuere"
+            fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+            alt={post.frontmatter.title}
+          />
+
         <h1
           style={{
             marginBottom: "50px",
@@ -96,6 +103,14 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          childImageSharp {
+            fluid( quality: 85, srcSetBreakpoints: [960, 1440]) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+          publicURL
+        }
       }
     }
   }

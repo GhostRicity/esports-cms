@@ -8,13 +8,14 @@ import { GrFacebook } from 'react-icons/gr';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
+// TODO: optimize for smaller screens
 
 const Footer = () => {
 const data = useStaticQuery(graphql`
   query Images {
     image: file(relativePath: { eq: "one.jpg" }) {
       childImageSharp {
-        fixed(width:250, quality: 70) {
+        fixed(width:180, quality: 70) {
           base64
           width
           height
@@ -29,7 +30,7 @@ const data = useStaticQuery(graphql`
   return (
   <footer>
     <div className="sticky-bottom">
-      <Navbar className="justify-content-center" variant="dark" >
+      <Navbar className="justify-content-center">
           <Nav.Item eventKey="disabled" disabled>
             <Img fixed={data.image.childImageSharp.fixed} alt="Erasmus+ logo" />
           </Nav.Item>
@@ -45,7 +46,7 @@ const data = useStaticQuery(graphql`
         <Nav.Item>
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="http://www.disleksija.lv/">LDB</a>
+          <a href="http://www.disleksija.lv/" target="_blank">LDB</a>
         </Nav.Item>
       </Navbar>
     </div>
