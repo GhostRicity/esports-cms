@@ -29,4 +29,4 @@ Stream & casting: Gabriel Zadravec & Timotej Zadravec 💪 \
 ➡️Video editing: Eva Berke 💪 \
 ➡️Preparation of artwork: Luka Ivančič & Blaž Belec 💪 \
 ➡️Other help: Silvija Sarjaš 💪\
-➡️Organization and coordination the tournament:\ Dominik Letnar & Klavdija Cerovšek
+➡️Organization and coordination the tournament: Dominik Letnar & Klavdija Cerovšek
