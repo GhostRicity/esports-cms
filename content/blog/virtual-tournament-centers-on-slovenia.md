@@ -24,9 +24,9 @@ We all joined battle. We had eight games on day one and you can find the twitch 
 On day two we fought another eight games and found that the Czech first team was the best. Great games and fun was had. \
 \
 Huge thanks to:\
-Stream & casting: Gabriel Zadravec & Timotej Zadravec 💪
-➡️Moderating and clipping moments: Nik Antonič Zemljič 💪
-➡️Video editing: Eva Berke 💪
-➡️Preparation of artwork: Luka Ivančič & Blaž Belec 💪
-➡️Other help: Silvija Sarjaš 💪
-➡️Organization and coordination the tournament: Dominik Letnar & Klavdija Cerovšek
+Stream & casting: Gabriel Zadravec & Timotej Zadravec 💪 \
+➡️Moderating and clipping moments: Nik Antonič Zemljič 💪 \
+➡️Video editing: Eva Berke 💪 \
+➡️Preparation of artwork: Luka Ivančič & Blaž Belec 💪 \
+➡️Other help: Silvija Sarjaš 💪\
+➡️Organization and coordination the tournament:\ Dominik Letnar & Klavdija Cerovšek
