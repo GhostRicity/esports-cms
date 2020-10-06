@@ -1,5 +1,5 @@
 ---
-path: tournaments
+path: blog
 date: 2020-10-06T13:13:30.263Z
 title: Virtual tournament centers on Slovenia
 description: Our second large event was coordinated by our Slovenian partner at
