@@ -1,7 +1,7 @@
 ---
 path: blog
 date: 2020-10-11T10:05:15.034Z
-title: Video about Gaming to Boost School engagement
+title: Video About e-sports to Boost School Engagement
 description: Here is our first video talking about our project and our first
   tournament in Riga.
 featuredImage: /img/image-from-ios.jpg
