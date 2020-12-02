@@ -14,3 +14,7 @@ Eva described our use of Agile and various communications platforms as ways that
 
 \
 [You can see the presentation (LV)](https://viaa.gov.lv/library/files/original/Erasmus_seminars_2.grupa_Skolu_izglitiba.zip).
+
+The video stream is available (LV) and Eva's talk begins at 43:48.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ql00fzLgnKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
