@@ -8,7 +8,7 @@ Ref. No 2019-1-LV01-KA201-060426
 **See the project**
 https://www.gaming-erasmus.eu/
 
-<p align="center">
+<p>
   <a href="http://www.disleksija.lv/disleksija">  
     Built in cooperation with LDB
   </a>
@@ -25,12 +25,12 @@ https://www.gaming-erasmus.eu/
 
 ### Made With
 
-<p align="center">
+<p>
   <a href="https://www.gatsbyjs.com/">  
     GatsbyJS
   </a>
 </p>
-<p align="center">
+<p>
   <a href="https://www.netlifycms.org/">  
     NetlifyCMS
   </a>
