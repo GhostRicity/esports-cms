@@ -1,5 +1,5 @@
 ---
-path: https://www.gaming-erasmus.eu/blog/
+path: blog
 date: 2021-12-02T03:38:24.875Z
 title: Tournament as evidence that e-sports increases engagement - Thanks Maribor!
 description: Our SPTŠ Murska Sobota team worked hard to create a great
