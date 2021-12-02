@@ -7,8 +7,6 @@ description: Our SPTŠ Murska Sobota team worked hard to create a great
   a great time.
 featuredImage: /img/image_from_ios.jpg
 ---
-
-
 The team from SPTŠ Murska Sobota created and ran an energetic and engaging tournament in Maribor, Slovenia on the 7th and 8th of October. Teams from Slovenia, Latvia, Czechia, Italy, and Portugal met in Maribor and had two intense days of battle and friendship. 
 
 But, the underlying reasons for the tournament was to learn more about tournament organization, what effects e-sports has on school engagement, and learn about how to promote e-sports to schools.
@@ -28,5 +26,7 @@ The teams fought hard in a well organized tournament that resulted in the Latvia
 ## Takeaways for us and participants
 
 The survey that we did at the end of the two days held some nuggets that we will contemplate and consider how to use. The primary one was that e-sports are a great way to engage students with school and that more students want to see this in their schools. For more info on the survey and findings, [follow us on Facebook](https://www.facebook.com/Gaming-for-Boosting-School-Engagement-109006730574121).
+
+\#ErasmusPlus #esports #gaming #dyslexia
 
 ![Group gets ready for awards](/img/20211007191313_img_1222.jpg "Ready for prizes")
