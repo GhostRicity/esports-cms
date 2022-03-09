@@ -9,6 +9,4 @@ This is the result of two years of work in understanding how e-sports and gaming
 
 Šis ir mūsu projekta divu gadu darba rezultāts - rokasgrāmata, kas ilustrē to, ka videospēles un e-sports attīsta jauniešu kognitīvās spējas, uzlabo viņu saskarsmes un valodu prasmes un vienkārši ļauj viņiem labāk justies skolā.
 
-
-
-[L](https://1drv.ms/b/s!AjVfV3YqCrTVg90tb9rDEHdxz9u2Zw?e=IXCJCO)atviski.
+[Latviski](https://1drv.ms/b/s!AjVfV3YqCrTVg90tb9rDEHdxz9u2Zw?e=IXCJCO).
