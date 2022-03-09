@@ -5,6 +5,10 @@ title: Handbook for creating tournaments
 description: This is our experience creating tournaments and summarized in a handbook.
 featuredImage: /img/eva-smiles.png
 ---
-This is the result of two years of work in understanding how e-sports and gaming can be used to help students become more engaged in school.
+This is the result of two years of work in understanding how e-sports and gaming can be used to help students become more engaged in school. The first version is in Latvian and we will follow with versions in other partner languages and English.
 
-[LV Handbook](https://1drv.ms/b/s!AjVfV3YqCrTVg90tb9rDEHdxz9u2Zw?e=IXCJCO).
+Šis ir mūsu projekta divu gadu darba rezultāts - rokasgrāmata, kas ilustrē to, ka videospēles un e-sports attīsta jauniešu kognitīvās spējas, uzlabo viņu saskarsmes un valodu prasmes un vienkārši ļauj viņiem labāk justies skolā.
+
+
+
+[L](https://1drv.ms/b/s!AjVfV3YqCrTVg90tb9rDEHdxz9u2Zw?e=IXCJCO)atviski.
