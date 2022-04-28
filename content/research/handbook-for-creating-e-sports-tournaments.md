@@ -1,5 +1,5 @@
 ---
-path: Manual
+path: research
 date: 2022-04-28T17:14:59.875Z
 title: Handbook for creating e-sports tournaments
 description: "Our project team created a manual that helps schools and other
