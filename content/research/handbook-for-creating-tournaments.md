@@ -1,5 +1,5 @@
 ---
-path: Manuals
+path: research
 date: 2022-03-09T17:05:40.403Z
 title: Handbook for creating tournaments
 description: This is our experience creating tournaments and summarized in a handbook.
