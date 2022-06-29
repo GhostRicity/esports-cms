@@ -6,7 +6,7 @@ description: "The findings of the feedback questionnaire of our group of around
   30 gamers are exactly the same as they are in the overview of the theory of
   gains from gaming and e-sports – they develop participants’ cognitive
   abilities, improve social skills and mental well-being. "
-featuredImage: /img/scott-graham-5fnmwej4taa-unsplash.jpg
+featuredImage: /img/felix-mittermeier-najil1z3elk-unsplash.jpg
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
