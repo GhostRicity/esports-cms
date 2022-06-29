@@ -8,13 +8,13 @@ description: "The findings of the feedback questionnaire of our group of around
   abilities, improve social skills and mental well-being. "
 featuredImage: /img/felix-mittermeier-najil1z3elk-unsplash.jpg
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -54,9 +54,9 @@ featuredImage: /img/felix-mittermeier-najil1z3elk-unsplash.jpg
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -635,9 +635,9 @@ featuredImage: /img/felix-mittermeier-najil1z3elk-unsplash.jpg
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -663,13 +663,13 @@ featuredImage: /img/felix-mittermeier-najil1z3elk-unsplash.jpg
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 **Gains from gaming in a competitive environment**
 
-**Evaluation of the Second LoL Tournament in Slovenia, October 5-7, 2021, and What We Can Learn From It**
+**Evaluation of our Second LoL Tournament in Slovenia, October 5-7, 2021, and What We Can Learn From It**
 
 In our project about using gaming to boost school engagement of students with learning disabilities, we chose to use the format of tournaments of League of Legends (LoL) which is a MOBA game.
 
