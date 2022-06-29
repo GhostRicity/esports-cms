@@ -1,6 +1,6 @@
 ---
 path: tournaments
-date: 2022-06-29T17:58:01.071Z
+date: 2020-10-15T21:00:00.000Z
 title: Virtual tournament centers on Slovenia
 description: Our second large event was coordinated by our Slovenian partner at
   SPTŠ Murska Sobota. We had eight teams from six countries and a super
