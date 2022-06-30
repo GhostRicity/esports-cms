@@ -2,10 +2,10 @@
 path: research
 date: 2022-04-28T17:14:59.875Z
 title: Handbook for creating e-sports tournaments
-description: "Our project team created a manual that helps schools and other
-  organisations create e-sports tournaments. It is in all of our partner
-  languages: Latvian, Czech, Spanish, Italian, Portugese, Slovenian, and
-  English."
+description: "Download your copy (in six languages) of the  manual our project
+  team created to help your school and others organise or create e-sports
+  tournaments. It is in all of our partner languages: Latvian, Czech, Spanish,
+  Italian, Portugese, Slovenian, and English."
 featuredImage: /img/czech-manual-cover.jpg
 ---
 This is a step-by-step manual that even a novice gaming organisation can use to make tournaments. It talks about the whole event and how to engage students in the process. 
