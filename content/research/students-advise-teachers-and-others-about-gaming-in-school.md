@@ -4,7 +4,7 @@ date: 2022-06-30T01:48:24.933Z
 title: Students advise teachers and others about gaming in school
 description: In the second part of our survey, we were interested in learning
   whether those gains would translate into a desire to continue gaming in school
-  and what they would advise others.
+  and what they would advise others. Read about what they told us.
 featuredImage: /img/tim-mossholder-we_kv_zb1l0-unsplash.jpg
 ---
 <!--\[if gte mso 9]><xml>
