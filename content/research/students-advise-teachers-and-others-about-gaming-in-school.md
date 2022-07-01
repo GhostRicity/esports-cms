@@ -1,6 +1,6 @@
 ---
 path: research
-date: 2022-06-30T01:48:24.933Z
+date: 2022-06-29T01:48:24.933Z
 title: Students advise teachers and others about gaming in school
 description: In the second part of our survey, we were interested in learning
   whether those gains would translate into a desire to continue gaming in school
