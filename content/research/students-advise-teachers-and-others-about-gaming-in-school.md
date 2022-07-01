@@ -7,13 +7,13 @@ description: In the second part of our survey, we were interested in learning
   and what they would advise others. Read about what they told us.
 featuredImage: /img/tim-mossholder-we_kv_zb1l0-unsplash.jpg
 ---
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -53,9 +53,9 @@ featuredImage: /img/tim-mossholder-we_kv_zb1l0-unsplash.jpg
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -634,9 +634,9 @@ featuredImage: /img/tim-mossholder-we_kv_zb1l0-unsplash.jpg
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -663,7 +663,7 @@ featuredImage: /img/tim-mossholder-we_kv_zb1l0-unsplash.jpg
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-GB;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -718,42 +718,44 @@ For everybody to enjoy the insights of the gamers on these issues and to demonst
 
 **Portugal**
 
-<!--\\[if !supportLists]-->1. <!--\\[endif]-->I would tell them to look more at the pro’s and not the cons of gaming and give it a try.
+<!--\\\[if !supportLists]-->1. <!--\\\[endif]-->I would tell them to look more at the pro’s and not the cons of gaming and give it a try.
 
-<!--\\[if !supportLists]-->2. <!--\\[endif]-->It is an excellent way of getting to know people, to develop some traits/skills, to get the youth interest and it would be a more project during the school year.
+<!--\\\[if !supportLists]-->2. <!--\\\[endif]-->It is an excellent way of getting to know people, to develop some traits/skills, to get the youth interest and it would be a more project during the school year.
 
-<!--\\[if !supportLists]-->3. <!--\\[endif]-->I already talked about it with my teachers and peers about that one day esports will be where football and other sports are at the moment. To interact
+<!--\\\[if !supportLists]-->3. <!--\\\[endif]-->I already talked about it with my teachers and peers about that one day esports will be where football and other sports are at the moment. To interact
 
-<!--\\[if !supportLists]-->4. <!--\\[endif]-->That schools have to adapt to current digital era, that children and youngsters are playing more, and it is a way to interact with new people and develop social skills.
+<!--\\\[if !supportLists]-->4. <!--\\\[endif]-->That schools have to adapt to current digital era, that children and youngsters are playing more, and it is a way to interact with new people and develop social skills.
 
-<!--\\[if !supportLists]-->5. <!--\\[endif]-->Start a project and lend (probably meant – borrow, \*editor’s remark\*) some pcs from school.
+<!--\\\[if !supportLists]-->5. <!--\\\[endif]-->Start a project and lend (probably meant – borrow, \\*editor’s remark\\*) some pcs from school.
 
 **Italy**
 
-<!--\\[if !supportLists]-->6. <!--\\[endif]-->I would say that playing video games will help to reduce stress and anger.
+<!--\\\[if !supportLists]-->6. <!--\\\[endif]-->I would say that playing video games will help to reduce stress and anger.
 
-<!--\\[if !supportLists]-->7. <!--\\[endif]-->I would say that playing video games will help relax the mind.
+<!--\\\[if !supportLists]-->7. <!--\\\[endif]-->I would say that playing video games will help relax the mind.
 
-<!--\\[if !supportLists]-->8. <!--\\[endif]-->Playing video games increase skills and create good relationship as a team.
+<!--\\\[if !supportLists]-->8. <!--\\\[endif]-->Playing video games increase skills and create good relationship as a team.
 
-<!--\\[if !supportLists]-->9. <!--\\[endif]-->I’d say to the teachers that video games are an important instrument to learn, socialize and develop our ability.
+<!--\\\[if !supportLists]-->9. <!--\\\[endif]-->I’d say to the teachers that video games are an important instrument to learn, socialize and develop our ability.
 
-<!--\\[if !supportLists]-->10. <!--\\[endif]-->This game can help in learning.
+<!--\\\[if !supportLists]-->10. <!--\\\[endif]-->This game can help in learning.
 
 **Latvia**
 
-<!--\\[if !supportLists]-->11. <!--\\[endif]-->To be creative.
+<!--\\\[if !supportLists]-->11. <!--\\\[endif]-->To be creative.
 
-<!--\\[if !supportLists]-->12. <!--\\[endif]-->If they like it, then try it!
+<!--\\\[if !supportLists]-->12. <!--\\\[endif]-->If they like it, then try it!
 
-<!--\\[if !supportLists]-->13. <!--\\[endif]-->We should throw old thinking away and do as students want.
+<!--\\\[if !supportLists]-->13. <!--\\\[endif]-->We should throw old thinking away and do as students want.
 
-<!--\\[if !supportLists]-->14. <!--\\[endif]-->I would try to find students like me to form my own team and find others to play against.
+<!--\\\[if !supportLists]-->14. <!--\\\[endif]-->I would try to find students like me to form my own team and find others to play against.
 
-<!--\\[if !supportLists]-->15. <!--\\[endif]-->That I have a great idea!
+<!--\\\[if !supportLists]-->15. <!--\\\[endif]-->That I have a great idea!
 
-<!--\\[if !supportLists]-->16. <!--\\[endif]-->It could be fun.
+<!--\\\[if !supportLists]-->16. <!--\\\[endif]-->It could be fun.
 
-<!--\\[if !supportLists]-->17. <!--\\[endif]-->I could maybe organize something so we could play videogames at school.
+<!--\\\[if !supportLists]-->17. <!--\\\[endif]-->I could maybe organize something so we could play videogames at school.
+
+\#esports #erasmus #erasmusplus
 
 <!--EndFragment-->
