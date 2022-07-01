@@ -96,4 +96,4 @@ It could be fun.
 
 I could maybe organize something so we could play videogames at school.
 
-\#esports #erasmus #erasmusplus
+#esports #erasmus #erasmusplus
