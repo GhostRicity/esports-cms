@@ -36,21 +36,21 @@ childImageSharp {
    }
   }
 }
-  logo3: file(relativePath: { eq: "hodina-logo.png"}) {
+  logo3: file(relativePath: { eq: "hodina-logo.jpg"}) {
 childImageSharp {
   fluid(quality: 90, maxWidth: 250) {
     ...GatsbyImageSharpFluid_withWebp
     }
    }
   }
-  logo4: file(relativePath: { eq: "chekin-logo.png"}) {
+  logo4: file(relativePath: { eq: "chekin-logo.jpg"}) {
 childImageSharp {
   fluid(quality: 90, maxWidth: 250) {
     ...GatsbyImageSharpFluid_withWebp
    }
   }
 }
-  logo5: file(relativePath: { eq: "acd-logo.png"}) {
+  logo5: file(relativePath: { eq: "acd-logo.jpg"}) {
 childImageSharp {
   fluid(quality: 90, maxWidth: 250) {
   ...GatsbyImageSharpFluid_withWebp

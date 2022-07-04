@@ -32,7 +32,3 @@ const Card = ({ data, link }) => (
 
 export default Card
 
-
-// TODO: Add styling to the cards, (with padding)
-// TODO: Add styling to the link and text so its in unofrm size with the index pages
-// TODO: Reduze size of image on idex pages, may be redundent with uneforming text size.

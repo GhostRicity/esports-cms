@@ -13,9 +13,16 @@ const Header = () => (
       <Nav className="mr-auto justify-content-end" >
         <Nav.Link href="/blog">news</Nav.Link>
         <Nav.Link href="/about">about</Nav.Link>
-
         <Nav.Link href="/research">research</Nav.Link>
-        <Nav.Link href="/tournaments">Tournament</Nav.Link>
+        <Nav.Link href="/tournaments">Tournaments</Nav.Link>
+        <NavDropdown title="By Partners" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">LV</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">CZ</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">SLO</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.1">IT</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">ES</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">PT</NavDropdown.Item>
+        </NavDropdown>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
