@@ -17,12 +17,12 @@ const Header = () => (
         <Nav.Link href="/research">research</Nav.Link>
         <Nav.Link href="/tournaments">Tournaments</Nav.Link>
         <NavDropdown title="By Partners" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">LV</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">CZ</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">SLO</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">IT</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">ES</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">PT</NavDropdown.Item>
+          <NavDropdown.Item href="#">LV</NavDropdown.Item>
+          <NavDropdown.Item href="/cz">CZ</NavDropdown.Item>
+          <NavDropdown.Item href="#">SLO</NavDropdown.Item>
+          <NavDropdown.Item href="#">IT</NavDropdown.Item>
+          <NavDropdown.Item href="#">ES</NavDropdown.Item>
+          <NavDropdown.Item href="#">PT</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
