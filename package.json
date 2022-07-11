@@ -40,7 +40,7 @@
     "gsap": "^3.0.4",
     "intersection-observer": "^0.7.0",
     "netlify-cms-app": "^2.12.19",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.8.6",
