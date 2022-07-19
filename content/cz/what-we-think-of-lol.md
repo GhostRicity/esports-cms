@@ -3,7 +3,7 @@ path: cz
 date: 2022-07-11T16:27:17.417Z
 title: What we think of LOL
 description: What LoL tournaments meant to me  form CZ
-featuredImage: /img/hodina-logo.jpg
+featuredImage: /img/hodinahlolteam.jpg
 ---
 **What LoL tournaments meant to me**
 
