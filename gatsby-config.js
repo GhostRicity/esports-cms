@@ -73,6 +73,13 @@ module.exports = {
       name: 'images'
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/slo`,
+        name: 'images'
+        },
+      },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
