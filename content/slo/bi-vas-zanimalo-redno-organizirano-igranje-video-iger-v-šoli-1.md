@@ -1,5 +1,5 @@
 ---
-path: "slo "
+path: slo
 date: 2022-07-19T21:58:57.210Z
 title: Bi vas zanimalo redno/organizirano igranje video iger v šoli?
 description: Bi vas zanimalo redno/organizirano igranje video iger v šoli?
