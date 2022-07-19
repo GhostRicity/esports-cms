@@ -51,7 +51,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC  }, filter: {frontmatter: {path: {eq: "cz"}}}) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC  }, filter: {frontmatter: {path: {eq: "slo"}}}) {
       edges {
         node {
           excerpt
