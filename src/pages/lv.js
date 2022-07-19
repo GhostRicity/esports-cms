@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+import Card from "../components/cards"
 
 
 //bootstrap

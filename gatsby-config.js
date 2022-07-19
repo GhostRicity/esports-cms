@@ -52,7 +52,7 @@ module.exports = {
         name: 'images'
       },
     },
-      {
+    {
         resolve: `gatsby-source-filesystem`,
         options: {
           path: `${__dirname}/content/cz`,
@@ -65,7 +65,14 @@ module.exports = {
         path: `${__dirname}/content/lv`,
         name: 'images'
       },
-  },
+    },
+    {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/content/es`,
+      name: 'images'
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,

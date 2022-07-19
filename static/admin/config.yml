@@ -70,3 +70,16 @@ collections:
      - { name: description, label: Description, widget: string }
      - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
      - { name: body, label: Body, widget: markdown }
+
+  - label: Es
+    name: es
+    identifier_field: es
+    folder: content/es
+    create: true
+    fields:
+     - { name: path, label: path }
+     - { name: date, label: Date, widget: date }
+     - { name: title, label: Title, required: true}
+     - { name: description, label: Description, widget: string }
+     - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
+     - { name: body, label: Body, widget: markdown }
