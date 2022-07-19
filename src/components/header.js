@@ -19,10 +19,10 @@ const Header = () => (
         <NavDropdown title="By Partners" id="basic-nav-dropdown">
           <NavDropdown.Item href="#">LV</NavDropdown.Item>
           <NavDropdown.Item href="/cz">CZ</NavDropdown.Item>
-          <NavDropdown.Item href="#">SLO</NavDropdown.Item>
+          {/* <NavDropdown.Item href="#">SLO</NavDropdown.Item>
           <NavDropdown.Item href="#">IT</NavDropdown.Item>
           <NavDropdown.Item href="#">ES</NavDropdown.Item>
-          <NavDropdown.Item href="#">PT</NavDropdown.Item>
+          <NavDropdown.Item href="#">PT</NavDropdown.Item> */}
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
