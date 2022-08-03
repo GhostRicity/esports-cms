@@ -1,5 +1,5 @@
 ---
-path: It
+path: it
 date: 2022-08-03T11:20:27.718Z
 title: "Erasmus+ Partenariati Strategici – Progetto “Gaming for Boosting School
   Engagement of Students with Learning Disabilities” "
