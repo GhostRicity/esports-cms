@@ -1,5 +1,5 @@
 ---
-path: It
+path: it
 date: 2022-08-03T11:13:07.106Z
 title: Vantaggi del Gaming in un ambiente competitivo
 description: Valutazione del secondo torneo di LoL in Slovenia, 5-7 ottobre
