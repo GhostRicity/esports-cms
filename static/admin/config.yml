@@ -96,3 +96,29 @@ collections:
      - { name: description, label: Description, widget: string }
      - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
      - { name: body, label: Body, widget: markdown }
+
+  - label: It
+    name: it
+    identifier_field: it
+    folder: content/it
+    create: true
+    fields:
+     - { name: path, label: path }
+     - { name: date, label: Date, widget: date }
+     - { name: title, label: Title, required: true}
+     - { name: description, label: Description, widget: string }
+     - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
+     - { name: body, label: Body, widget: markdown }
+
+  - label: Pt
+    name: pt
+    identifier_field: pt
+    folder: content/pt
+    create: true
+    fields:
+     - { name: path, label: path }
+     - { name: date, label: Date, widget: date }
+     - { name: title, label: Title, required: true}
+     - { name: description, label: Description, widget: string }
+     - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
+     - { name: body, label: Body, widget: markdown }

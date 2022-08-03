@@ -20,9 +20,9 @@ const Header = () => (
           <NavDropdown.Item href="/lv">LV</NavDropdown.Item>
           <NavDropdown.Item href="/cz">CZ</NavDropdown.Item>
           <NavDropdown.Item href="/slo">SLO</NavDropdown.Item>
-          {/* <NavDropdown.Item href="#">IT</NavDropdown.Item> */}
+          <NavDropdown.Item href="#">IT</NavDropdown.Item>
           <NavDropdown.Item href="/es">ES</NavDropdown.Item>
-          {/* <NavDropdown.Item href="#">PT</NavDropdown.Item> */}
+          <NavDropdown.Item href="#">PT</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

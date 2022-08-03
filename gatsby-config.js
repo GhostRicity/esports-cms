@@ -80,6 +80,20 @@ module.exports = {
         name: 'images'
         },
       },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/content/it`,
+          name: 'images'
+          },
+        },
+        {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            path: `${__dirname}/content/pt`,
+            name: 'images'
+            },
+          },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
