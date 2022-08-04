@@ -14,7 +14,7 @@ const Header = () => (
       <Nav className="mr-auto justify-content-end" >
         <Nav.Link href="/blog">news</Nav.Link>
         <Nav.Link href="/about">about</Nav.Link>
-        <Nav.Link href="/research">research</Nav.Link>
+        <Nav.Link href="/research">Handbook</Nav.Link>
         <Nav.Link href="/tournaments">Tournaments</Nav.Link>
         <NavDropdown title="By Partners" id="basic-nav-dropdown">
           <NavDropdown.Item href="/lv">LV</NavDropdown.Item>
